@@ -1,0 +1,2 @@
+// this is a project showing how a joystick (HW-504) can be used (x and y direction) to control 2 servos (Tower Pro SG-90)
+// included is serial ouput to visualize the lowest and highest values to map the joystick to the servos correctly.
