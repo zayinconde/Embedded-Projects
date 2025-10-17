@@ -1,0 +1,1 @@
+After years of collecting various components (sensors/motors etc) with my arduino starter kits. I have decided to try and use all of them in a project to gain/practice my embedded skills and knowledge. All projects will be made using VS Code and platform IO + various relevant libraries.
