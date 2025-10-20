@@ -1,0 +1,11 @@
+This is a simple project that oscillates between Red green and blue with a delay whenever PIR sensor detects infared radiation movement detected (by a human movement). 
+
+i created a custom function for the RGB so the color values can be changed in the typical RGB format (255,255,255) ->>> (red,green,blue) which allows for all color combinations 
+that the LED is capable of. 
+
+The PIR sensor is very simple to use with the complete PCB circuit simplifying things. The board just needs power, ground and provides a digital output. 
+In code i just defined the variable as boolean (true or false) for the digital read of the pin connected to the IR sensor. So its a simple "is human present?" True or false answer.
+
+Notably, on the PIR sensor circuit there are 2 pot meters for extra adjustability. The left one is for distance of sensing (sensitivity), the right one is for time delay between detection. 
+Sensitivity: From 3 meters to 7 meters
+Time Delay: From 5 seconds to 5 minutes.
