@@ -1,3 +1,5 @@
+Note- Rename cpp file to "main.c" for drag and drop into platformIO enviroment/ecosystem, or open with arduino IDE
+
 This project uses 2x Tower Pro SG90 servoes, KY-023 dual-axis joystick, ULN2003AN Stepmotor Driver, 28BYJ-48 Stepper Motor 5V.
 
 Essentially what the code does is when the joystick/servoes reach max x or y values (0 or 1023 from adc), at the exact point they reach the max range the stepper motor will begin powering the 4 coils and rotating the shaft.
