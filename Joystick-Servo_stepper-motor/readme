@@ -1,0 +1,9 @@
+This project uses 2x Tower Pro SG90 servoes, KY-023 dual-axis joystick, ULN2003AN Stepmotor Driver, 28BYJ-48 Stepper Motor 5V.
+
+Essentially what the code does is when the joystick/servoes reach max x or y values (0 or 1023 from adc), at the exact point they reach the max range the stepper motor will begin powering the 4 coils and rotating the shaft.
+no library is used for the stepper motor just manual switch patterns and pulseing the digital pins with PWM. 
+
+the ULN2003AN does the amplification of current and protects the circuit with built in flyback diodes. Addtionally, the driver board has LEDs so you can se the switch pattern and how the coils are powered. 
+
+The code is set up so that when the x-axis reaches it max values then the motor shaft turns in clockwise rotation.
+If the joystick/servoes y-axis reach max values then the stepper motor shaft rotates in counter clockwise.
